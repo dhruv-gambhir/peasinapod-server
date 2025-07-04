@@ -1,2 +1,8 @@
 /Users/dhruvgambhir/code/peasinapod-server/src/main/java/com/example/peasinapod/PeasinapodApplication.java
+/Users/dhruvgambhir/code/peasinapod-server/src/main/java/com/example/peasinapod/controller/AuthController.java
 /Users/dhruvgambhir/code/peasinapod-server/src/main/java/com/example/peasinapod/controller/HelloController.java
+/Users/dhruvgambhir/code/peasinapod-server/src/main/java/com/example/peasinapod/controller/UserController.java
+/Users/dhruvgambhir/code/peasinapod-server/src/main/java/com/example/peasinapod/dto/LoginRequest.java
+/Users/dhruvgambhir/code/peasinapod-server/src/main/java/com/example/peasinapod/model/User.java
+/Users/dhruvgambhir/code/peasinapod-server/src/main/java/com/example/peasinapod/repository/UserRepository.java
+/Users/dhruvgambhir/code/peasinapod-server/src/main/java/com/example/peasinapod/service/UserService.java

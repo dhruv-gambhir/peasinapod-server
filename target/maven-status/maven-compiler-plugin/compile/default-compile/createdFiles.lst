@@ -1,2 +1,8 @@
-com/example/peasinapod/PeasinapodApplication.class
 com/example/peasinapod/controller/HelloController.class
+com/example/peasinapod/dto/LoginRequest.class
+com/example/peasinapod/repository/UserRepository.class
+com/example/peasinapod/service/UserService.class
+com/example/peasinapod/PeasinapodApplication.class
+com/example/peasinapod/controller/UserController.class
+com/example/peasinapod/model/User.class
+com/example/peasinapod/controller/AuthController.class
