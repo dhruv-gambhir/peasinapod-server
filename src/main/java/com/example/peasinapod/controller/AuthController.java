@@ -1,17 +1,21 @@
 package com.example.peasinapod.controller;
 
-import org.springframework.web.bind.annotation.PostMapping;
-import org.springframework.web.bind.annotation.RequestBody;
+import com.example.peasinapod.model.User;
+import com.example.peasinapod.service.UserService;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 
-import com.example.peasinapod.dto.LoginRequest;
+import java.util.Optional;
 
 @RestController
+@RequestMapping("/auth")
 public class AuthController {
-    @PostMapping("/login")
-    public ResponseEntity<?> login(@RequestBody LoginRequest loginRequest) {
-        return ResponseEntity.ok().build();
+
+    @GetMapping("/")
+    public String sayHello() {
+        return "Auth Controller is active!";
     }
 }
+
 
